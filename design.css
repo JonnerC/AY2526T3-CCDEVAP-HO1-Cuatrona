@@ -1,0 +1,91 @@
+.sidebar {
+    height: 95%;
+    width: 300px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    font-family: sans-serif;
+    color: white;
+    background-color: #FF964F;
+    padding: 30px;
+    padding-bottom: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar nav {
+    flex: 1;
+}
+
+.sidebar h1 {
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+}
+
+.sidebar nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.sidebar nav ul li a, .sidebar nav > a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 8px 0;
+}
+
+.sidebar nav ul li a:hover, .sidebar nav > a:hover {
+    text-decoration: underline;
+}
+
+audio {
+    display: block;
+    margin: 8px 0 16px;
+}
+
+.main {
+    padding-left: 30px;
+    margin-left: 330px;
+}
+
+body {
+    margin: 0;
+    margin-left: 20px;
+    padding: 0;
+}
+
+.header {
+    background-color: #A7C7E7;
+    color: white;
+    padding: 30px 30px;
+    margin-left: 340px;
+    margin-top: 0;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 12px;
+    table-layout: fixed;
+}
+
+th, td {
+    border: 1px solid beige;
+    padding: 10px 14px;
+    text-align: center;
+    font-size: 14px;
+}
+
+thead tr {
+    background-color: #FF964F;
+    color: white;
+}
+

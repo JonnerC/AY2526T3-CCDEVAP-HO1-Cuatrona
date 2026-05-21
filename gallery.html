@@ -1,24 +1,31 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link rel="stylesheet" href="design.css">
         <title>Art Gallery</title>
         <meta charset="UTF-8">
     </head>
     <body>
-        <div>
+        <div class="sidebar">
         <h1>Cuatrona, Jonner C.</h1>
         <nav>
-        <a href="index.html">About Me</a>
-        <a href="gallery.html">Art Gallery</a>
-        <a href="https://www.instagram.com/raibu.art/">Instagram</a>
+        <ul>
+            <li><a href="index.html">About Me</a></li>
+            <li><a href="gallery.html">Art Gallery</a></li>
+            <li><a href="https://www.instagram.com/raibu.art/">Instagram</a></li>
+            </ul>
         </nav>
         <h3>Copyright &copy2026</h3>
         </div>
-        <h2>Art Gallery</h2>    
+
+        <div class="header">
+        <h2>Art Gallery</h2>
+        </div>
+        <div class="main">  
         <h3>Art Pictures</h3>
-        <img src ="Media/Haerin.PNG" alt="Haerin">
-        <img src ="Media/Portrait.PNG" alt="Cuatrona">
-        <img src ="Media/MJ.PNG" alt="MJ">
+        <img src ="Media/Haerin.PNG" alt="Haerin" style="height:200px">
+        <img src ="Media/Portrait.PNG" alt="Cuatrona" style="height:200px">
+        <img src ="Media/MJ.PNG" alt="MJ" style="height:200px">
         <h3>Art Process</h3>
         <video controls width="350" height="350">
             <source src="Media/Haerin.mp4" type="video/mp4"/>
@@ -29,5 +36,6 @@
         <video controls width="350" height="350">
             <source src="Media/MJ.mp4" type="video/mp4"/>
         </video>
+        </div>
     </body>
 </html>
